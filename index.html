@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторна робота №1 — Основи роботи з JavaScript (Варіант 3)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <span class="badge">Варіант №3</span>
+      <h1>Лабораторна робота №1: Основи роботи з JavaScript</h1>
+      <p class="subtitle">Студент: <strong>Бігун Денис</strong> | Номер у журналі: <strong>3</strong></p>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- РІВЕНЬ 4-6 БАЛІВ -->
+    <section class="card">
+      <div class="card-header level-1">
+        <h2>Рівень 4–6 балів</h2>
+        <span class="level-tag">Базовий рівень</span>
+      </div>
+      <div class="card-body">
+        <!-- Завдання 1 -->
+        <article class="task-item">
+          <h3>Завдання 1. Діалогове вікно alert та привітання</h3>
+          <p class="task-desc">Скрипт, який спочатку виводить діалогове вікно, а після натиснення «ОК» виводить у вікно браузера: <em>"Hello, [Ваше прізвище та ім'я]!"</em></p>
+          <div class="controls">
+            <button id="btn-task1" class="btn btn-primary">Виконати Завдання 1</button>
+          </div>
+          <div id="output-task1" class="output-box"></div>
+        </article>
+
+        <!-- Завдання 2 -->
+        <article class="task-item">
+          <h3>Завдання 2. Діалогове вікно confirm ("ОК" / "Відміна")</h3>
+          <p class="task-desc">Відображає вікно з кнопками «Ок» і «Відміна» та повідомляє у вікні браузера, яка саме кнопка була натиснута.</p>
+          <div class="controls">
+            <button id="btn-task2" class="btn btn-primary">Виконати Завдання 2</button>
+          </div>
+          <div id="output-task2" class="output-box"></div>
+        </article>
+
+        <!-- Завдання 3 -->
+        <article class="task-item">
+          <h3>Завдання 3. Таблиця множення для числа 3</h3>
+          <p class="task-desc">Виводить таблицю множення для числа, що дорівнює останній цифрі номера у журналі (для варіанта 3 — число <strong>3</strong>).</p>
+          <div class="controls">
+            <button id="btn-task3" class="btn btn-primary">Згенерувати таблицю множення</button>
+          </div>
+          <div id="output-task3" class="output-box"></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- РІВЕНЬ 7-9 БАЛІВ -->
+    <section class="card">
+      <div class="card-header level-2">
+        <h2>Рівень 7–9 балів</h2>
+        <span class="level-tag">Середній рівень</span>
+      </div>
+      <div class="card-body">
+        <!-- Завдання 1 -->
+        <article class="task-item">
+          <h3>Завдання 1. Перевірка на парність/непарність</h3>
+          <p class="task-desc">Функція перевіряє номер у журналі (<strong>3</strong>) і виводить результат у кольоровому абзаці (парне — зелений, непарне — червоний).</p>
+          <div class="controls">
+            <button id="btn-level2-task1" class="btn btn-primary">Перевірити парність</button>
+          </div>
+          <div id="output-level2-task1" class="output-box"></div>
+        </article>
+
+        <!-- Завдання 2 -->
+        <article class="task-item">
+          <h3>Завдання 2. Генерація пароля</h3>
+          <p class="task-desc">Функція створює пароль на основі імені («Денис») та номера у журналі (3) за формулою: <em>перші 3 літери імені + номер * 2</em>. Виводить у блоці <code>&lt;div&gt;</code>.</p>
+          <div class="controls">
+            <button id="btn-level2-task2" class="btn btn-primary">Згенерувати пароль</button>
+          </div>
+          <div id="output-level2-task2" class="output-box"></div>
+        </article>
+
+        <!-- Завдання 3 -->
+        <article class="task-item">
+          <h3>Завдання 3. Середнє арифметичне 3 оцінок у динамічному div</h3>
+          <p class="task-desc">Запитує три оцінки через <code>prompt</code>, обчислює середнє значення та виводить у динамічно створений блок з <code>id="3"</code>.</p>
+          <div class="controls">
+            <button id="btn-level2-task3" class="btn btn-primary">Ввести оцінки</button>
+          </div>
+          <div id="container-level2-task3" class="output-box"></div>
+        </article>
+
+        <!-- Завдання 4 -->
+        <article class="task-item">
+          <h3>Завдання 4. Введення списку студентів за кількістю</h3>
+          <p class="task-desc">Запитує кількість студентів і потім послідовно їхні прізвища та імена, відображаючи кожного студента на сторінці одразу після введення.</p>
+          <div class="controls">
+            <button id="btn-level2-task4" class="btn btn-primary">Запустити введення студентів</button>
+          </div>
+          <div id="output-level2-task4" class="output-box"></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- РІВЕНЬ 10-12 БАЛІВ -->
+    <section class="card">
+      <div class="card-header level-3">
+        <h2>Рівень 10–12 балів</h2>
+        <span class="level-tag">Високий рівень</span>
+      </div>
+      <div class="card-body">
+        <!-- Завдання 1 -->
+        <article class="task-item">
+          <h3>Завдання 1. Список літер імені з alert при наведенні</h3>
+          <p class="task-desc">Список <code>&lt;ul&gt;</code> з літерами імені («Денис»). При наведенні курсору миші на кожну літеру показується <code>alert</code> із цією літерою.</p>
+          <div class="controls">
+            <button id="btn-level3-task1" class="btn btn-primary">Згенерувати список літер</button>
+          </div>
+          <div id="output-level3-task1" class="output-box"></div>
+        </article>
+
+        <!-- Завдання 2 -->
+        <article class="task-item">
+          <h3>Завдання 2. Введення студентів до натискання «Відміна»</h3>
+          <p class="task-desc">Запитує прізвища та імена у циклі доти, доки користувач не натисне кнопку «Відміна» у діалоговому вікні <code>prompt</code>. Результати виводяться після кожного введення.</p>
+          <div class="controls">
+            <button id="btn-level3-task2" class="btn btn-primary">Запустити цикл введення</button>
+          </div>
+          <div id="output-level3-task2" class="output-box"></div>
+        </article>
+
+        <!-- Завдання 3 -->
+        <article class="task-item">
+          <h3>Завдання 3. Динамічні блоки літер прізвища</h3>
+          <p class="task-desc">Кнопка «Показати блоки» створює для кожної літери прізвища («Бігун») блок <code>&lt;div&gt;</code> у контейнері <code>id="letters"</code>. При наведенні виводиться alert <em>«Це літера [ ]»</em>. При повторному кліку контейнер очищається.</p>
+          <div class="controls">
+            <button id="btn-letters" class="btn btn-accent">Показати блоки</button>
+          </div>
+          <div id="letters" class="letters-container"></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Лабораторна робота №1 з JavaScript | Варіант 3 | Студент: Денис Бігун</p>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
